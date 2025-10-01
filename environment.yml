@@ -1,0 +1,13 @@
+name: streamlit_snowflake_env
+channels:
+  - snowflake
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - streamlit
+      - snowflake-snowpark-python
+      - pandas
+      - numpy
